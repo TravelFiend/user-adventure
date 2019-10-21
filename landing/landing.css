@@ -1,0 +1,11 @@
+img {
+    border: 2px solid #D3D4D9;
+}
+
+.radios {
+    display: none;
+}
+
+input:checked+.hero-pics {
+    border: 7px solid #4B88A2;
+}

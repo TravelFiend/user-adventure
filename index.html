@@ -6,52 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./common/main.css">
-    <link rel="stylesheet" href="./home/home.css">
+    <link rel="stylesheet" href="./landing/landing.css">
     <title>Rise Up</title>
 </head>
 
 <body>
     <header>
-        <img src="./assets/evolution.jpg" alt="">
-        <h1>The Ridiculous Ride</h1>
+        <img src="" alt="">
+        <h1>Rise Up!</h1>
     </header>
 
-    <form action="">
+    <form id="create-profile">
         <div>
             <label for="name">Your name?</label>
-            <input id="name" name ="name" type="text">
+            <input id="name" name="name" type="text">
         </div>
         <fieldset>
             <legend>Choose your hero: </legend>
 
             <label for="farmer">
-                <input name="farmer" type="radio">
-                <img src="./assets/farmer.jpg" alt="">
+                <input class="radios" id="farmer" name="hero" value="farmer" type="radio" checked>
+                <img class="hero-pics" src="./assets/farmer.jpg" alt="">
                 Farmer
             </label>
 
             <label for="priestess">
-                <input name="priestess" type="radio">
-                <img src="./assets/priestess.jpg" alt="">
+                <input class="radios" id="priestess" name="hero" value="priestess" type="radio">
+                <img class="hero-pics" src="./assets/priestess.jpg" alt="">
                 Priestess
             </label>
 
             <label for="fisherman">
-                <input name="fisherman" type="radio">
-                <img src="./assets/fisherman.jpg" alt="">
+                <input class="radios" id="fisherman" name="hero" value="fisherman" type="radio">
+                <img class="hero-pics" src="./assets/fisherman.jpg" alt="">
                 Fisherman
             </label>
 
             <label for="warrior">
-                <input name="warrior" type="radio">
-                <img src="./assets/warrior.jpg" alt="">
+                <input class="radios" id="warrior" name="hero" value="warrior" type="radio">
+                <img class="hero-pics" src="./assets/warrior.jpg" alt="">
                 Warrior
             </label>
         </fieldset>
         <button>Begin Your Journey</button>
     </form>
 
-    <script type="module" src="./home/app.js"></script>
+    <script type="module" src="./landing/landing.js"></script>
 </body>
 
 </html>
